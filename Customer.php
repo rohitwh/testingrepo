@@ -14,7 +14,7 @@ class Customer extends CI_Controller {
 	 */
 	public $data = "";
 	function __construct() {
-
+//testing file
 		parent::__construct();
 		$this->load->library('session');
 		$this->load->helper(array('url', 'form', 'date'));
